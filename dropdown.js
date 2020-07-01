@@ -2,7 +2,13 @@ var tptDDLBegin = `<div class="dropdown-menu" aria-labelledby="dropdownMenuButto
 var tptDDLEnd = `</div>`
 var templateAgente = `<a class="dropdown-item" href="dashboard.html?id=**IDAGENTE**">**NOMEAGENTE**</a>`
 
-var tptAGTTBegin = `<tbody>`
+var tptAGTTBegin = `<table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Parceiro</th>
+                            <th scope="col">Volume Transacional</th>
+                          </tr>
+                        </thead><tbody>`
 var tptAGTTEnd = `</tbody>`
 var tptAgenteTransacao = `<tr><th scope="row">**NOMEPARCEIRO**</th><td>**VOLUME**</td></tr>`
 
